@@ -143,9 +143,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = Path.joinpath(BASE_DIR, 'media')
+MEDIA_ROOT = "/home/ubuntu/project/Canteen-Automation-System/media"
 # STATIC_ROOT = Path.joinpath(BASE_DIR / 'CateringApp', 'static')
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = "/home/ubuntu/project/Canteen-Automation-System/static"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
